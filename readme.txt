@@ -34,9 +34,7 @@ The RAW option simply separates your input images into folders and renames them 
 
 When creating image sequences, you can specify the file type to be created:
 DNG (Windows Only)
-This option converts RAW images into DNG files and renames them. Pro tip: In After Effects, open the import window and search your image_sequences output folder for 00000 to import the first frame of all your shots. After searching for 00000, select all images and click the "multiple sequences" option in the After Effects import window. DNG mode requires downloading dnglab.exe.
-
-DNG Lab is available on GitHub at: https://github.com/dnglab/dnglab/releases/tag/v0.6.2. Download the Windows version, unzip the folder, and drag the dnglab.exe file into your main Burst God software folder (the same folder as gui.py).
+This option converts RAW images into DNG files and renames them. Pro tip: In After Effects, open the import window and search your image_sequences output folder for 00000 to import the first frame of all your shots. After searching for 00000, select all images and click the "multiple sequences" option in the After Effects import window. DNG mode requires downloading dnglab.exe. DNG Lab is available on GitHub at: https://github.com/dnglab/dnglab/releases/tag/v0.6.2. Download the Windows version, unzip the folder, and drag the dnglab.exe file into your main Burst God software folder (the same folder as gui.py).
 
 JPEG
 This option creates full-size JPEG image sequences from your images, organized into different shots.
@@ -47,7 +45,6 @@ Frame Size Options
 Choose your final frame size. You can crop to standard sizes like 4k or 1920x1080. Note that exporting original frame sizes can create very large video files, requiring ample hard drive space.
 
 Frame Rate Options
-
 Base Frame Rate: This is the primary frame rate for rendering videos. For optimal results, use the maximum FPS your camera shoots bursts at; many cameras shoot bursts around 20 FPS. If your burst is shot at 20 FPS but exported at 24 FPS, your footage will play faster. Exporting at 15 FPS will slow your footage and may cause stuttering, which can be used for special effects.
 
 Also Export Original RFPS: This option additionally renders each shot at its estimated original frames per second, determined by comparing the start time of the first and last image. This estimation isn't exact; factors like the QR code picture or missing QR code picture can affect it. Each shot's original frame rate, in addition to the base frame rate, will be rendered, creating several additional frame rate folders. Issues exporting can arise from an impossible real FPS frame rate. Unchecking this button should resolve the issue. If not, restart the program and re-enter your settings.
@@ -55,11 +52,9 @@ Also Export Original RFPS: This option additionally renders each shot at its est
 Additional Frame Rates: Clicking the "+" button adds extra frame rates to the render queue. This is useful for testing how videos look at various frame rates, such as 24, 30, and 35, in a single export. Use caution when processing many shots; extra frame rates can consume hard drive space.
 
 Frame Length
-
 Frame length determines how many times each image appears consecutively in the sequence. At a frame rate of 1, images ABCD would result in frames ABCD. Setting a frame length of 2 would output AABBCCDD, effectively stretching the footage. For example, 12 frames at 24 FPS would yield a half-second clip, whereas 12 frames at a frame length of 2 and 24 FPS would yield a full-second clip.
 
 Additional Frame Lengths
-
 Similar to frame rates, additional frame lengths can be added for multiple lengths in a single render. This is useful for testing how footage looks at various lengths. Note that each frame length is rendered for each frame rate, potentially creating numerous variations.
 
 Enable Pattern Mode / Pattern Mode
