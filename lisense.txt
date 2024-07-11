@@ -1,0 +1,8 @@
+Burst God License
+Burst God can be used for personal and commercial purposes. This includes using the software to process footage and editing the software for custom purposes. However, the code itself cannot be used in other projects; you cannot clone the software and release it under a different name for either personal or commercial purposes. The software cannot be included in other programs that are released.
+
+Third-Party Dependencies and Licenses
+This software includes various third-party dependencies. The full list of dependencies can be found in the requirements.txt file. It is the user's responsibility to review and comply with the licenses of these dependencies. The creators of Burst God do not guarantee that all dependencies are under compatible licenses, and users should verify the licensing terms of each dependency.
+
+Notice
+The software has various dependencies that may result in some aspects of the software being under different licenses. Ensure that you review and comply with these licenses before using or downloading the software.
