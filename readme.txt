@@ -1,9 +1,11 @@
 Burst God
+See examples: https://www.burstgod.com
+
 Burst God uses QR codes as a film slate for burst photography to facilitate the creation of video clips from burst photography sequences. If you've ever filmed using burst photography and edited footage from a large folder of images, you know the pain. Burst God will do all the hard work for you; it's like having an assistant editor. Simply capture a shot of a QR code between each shot in your burst photography sequence. While this process can be a bit tedious, it will save you a tremendous amount of time during editing. If you haven't tried filming with burst photography, Burst God is an excellent way to start. Under the right circumstances, the footage can look stunning and achieve extremely high definition.
 
-To use this software, you must use the Burst God QR code generating film slate. Take a photo of the generated QR code before your first shot and between each subsequent shot. The app functions as a film slate, storing data such as scene, shot, take, and description. Don't worry if you accidentally photograph the QR code multiple times or forget to update your QR code; the software can handle these situations. It can also batch process multiple camera card folders—just place all the cards into the input folder.
+To use this software as intended, you must use the Burst God QR code generating film slate. Take a photo of the generated QR code before your first shot and between each subsequent shot. The app functions as a film slate, storing data such as scene, shot, take, and description. Don't worry if you accidentally photograph the QR code multiple times or forget to update your QR code; the software can handle these situations. It can also batch process multiple camera card folders—just place all the cards into the input folder. Burst God takes care of the chore of sorting and editing large, unedited sequences of images. It can create both image sequences and videos. 
 
-Burst God takes care of the chore of sorting and editing large, unedited sequences of images. It can create both image sequences and videos. Let's delve into the basics of the software.
+Let's delve into the basics of the software.
 
 Installation
 As long as you have Python installed on your computer, the program should run smoothly, including downloading dependencies. Ensure that gui.py, scan.py, and render.py are all in the same folder. Run gui.py to launch the program. If you encounter any issues, refer to the requirements.txt file for a list of dependencies. The QR Slate is a simple HTML file—just open it, and it should function properly.
