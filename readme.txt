@@ -8,7 +8,7 @@ To use this software as intended, you must use the Burst God QR code generating 
 Let's delve into the basics of the software.
 
 Installation
-As long as you have Python installed on your computer, the program should run smoothly, including downloading dependencies. Ensure that gui.py, scan.py, and render.py are all in the same folder. Run gui.py to launch the program. If you encounter any issues, refer to the requirements.txt file for a list of dependencies. The QR Slate is a simple HTML file—just open it, and it should function properly.
+As long as you have Python installed on your computer, the program should run smoothly, including downloading dependencies. Ensure that gui.py, scan.py, and render.py are all in the same folder. Run gui.py to launch the program. If you encounter any issues, refer to the requirements.txt file for a list of dependencies. The QR Slate is a simple HTML file—just open it, and it should function properly. You way need to install codecs.
 
 Here is an overview of the software functions and capabilities:
 
