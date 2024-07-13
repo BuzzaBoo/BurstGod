@@ -278,16 +278,16 @@ class BurstGod:
 
         # Add labels "H:" and "W:" for the height and width boxes
         h_label = tk.Label(self.frame_size_frame, text="H:", font=('Helvetica', 10))
-        h_label.grid(row=0, column=2, sticky='w', padx=(self.padding, 0))
-
+        h_label.grid(row=0, column=4, sticky='w', padx=(self.padding, 0))
+        
         self.height_entry = tk.Entry(self.frame_size_frame, textvariable=self.height_var, state="disabled", width=5)
-        self.height_entry.grid(row=0, column=3, padx=(self.padding, 0))
-
+        self.height_entry.grid(row=0, column=5, padx=(self.padding, 0))
+        
         w_label = tk.Label(self.frame_size_frame, text="W:", font=('Helvetica', 10))
-        w_label.grid(row=0, column=4, sticky='w', padx=(self.padding, 0))
-
+        w_label.grid(row=0, column=2, sticky='w', padx=(self.padding, 0))
+        
         self.width_entry = tk.Entry(self.frame_size_frame, textvariable=self.width_var, state="disabled", width=5)
-        self.width_entry.grid(row=0, column=5, padx=(self.padding, 0))
+        self.width_entry.grid(row=0, column=3, padx=(self.padding, 0))
 
         # Crop / Distort Selection
         crop_distort_label = tk.Label(self.frame_size_frame, text="Crop / Distort:", font=('Helvetica', 10))
