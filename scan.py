@@ -251,10 +251,10 @@ def scan_images(input_folder, output_folder):
             print(f"num_frames: {shot_list[i]['num_frames']}")
             print(f"frames: {shot_list[i]['frames']}")
 
-            # Delete the temporary folder if KEEP_TEMP_FILES is False
-            if not KEEP_TEMP_FILES:
-                rmtree(os.path.join(output_folder, 'temp_jpgs'))
-                print(f"Temporary folder '{temp_folder}' has been deleted.")
+        # Delete the temporary folder if KEEP_TEMP_FILES is False
+        if not KEEP_TEMP_FILES:
+            rmtree(os.path.join(output_folder, 'temp_jpgs'))
+            print(f"Temporary folder '{temp_folder}' has been deleted.")
 
 
     # Function to convert images to JPEG
